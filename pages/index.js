@@ -21,12 +21,12 @@ export default function Home() {
         </header>
         <main>
           <div className={styles.contentSection}>
-            <Link href="/about">
+            {/* <Link href="/about">
               <a className={styles.homeLink}>
                 <FontAwesomeIcon className={styles.faIcon} icon={faQuestionCircle}/>
                 About us!
               </a>
-            </Link>
+            </Link> */}
             <Link href="/ourteam">
               <a className={styles.homeLink}>
                 <FontAwesomeIcon className={styles.faIcon} icon={faUserFriends}/>
@@ -39,7 +39,7 @@ export default function Home() {
                 Connect
               </a>
             </Link>
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <a className={styles.homeLink}>
                 <FontAwesomeIcon className={styles.faIcon} icon={faAddressBook}/>
                 Contact Us!
@@ -56,7 +56,7 @@ export default function Home() {
                 <FontAwesomeIcon className={styles.faIcon} icon={faFileVideo}/>
                 Video Sermons
               </a>
-            </Link>
+            </Link> */}
           </div>
           <Team />
           <Connect />
