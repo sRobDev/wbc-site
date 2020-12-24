@@ -66,5 +66,8 @@
 }
 
 .homeLink:hover {
+  color: white;
+  background-color: #00a2c9;
+  border-radius: 10px;
   transform: scale(1.1);
 }
