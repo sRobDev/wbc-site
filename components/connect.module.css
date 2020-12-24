@@ -1,0 +1,49 @@
+.connectScrollContainer {
+  background-color: #00a2c9;
+  height: 20rem; 
+  display: flex; 
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+.connectScrollContainer .content {
+  max-width: 20rem;
+  flex-shrink: 0;
+}
+
+.pageContainer { 
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.pageContainer .content {
+  border-bottom: 1px solid gray;
+  padding: 1rem;
+  max-width: 50rem;
+  flex-wrap: wrap;
+}
+
+.pageContainer .content:nth-last-of-type(1) {
+  border: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 .5rem;
+}
+
+.content h2 {
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.content p {
+  padding: 0;
+  margin: 0;
+}
